@@ -11,3 +11,18 @@
     align-items: center;
     justify-content: center;
 }
+
+.main{
+    background: black;
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
